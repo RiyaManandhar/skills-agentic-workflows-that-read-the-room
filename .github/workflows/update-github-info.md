@@ -2,6 +2,7 @@
 name: update-github-info
 emoji: 📰
 description: Draft GitHub Info website updates from official GitHub sources and Mona's notes.
+engine: copilot
 on:
   workflow_dispatch: {}
   schedule:
