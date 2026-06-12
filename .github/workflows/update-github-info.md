@@ -21,6 +21,7 @@ network:
   allowed:
     - defaults
     - github.blog
+    - github.com
 ---
 
 # Update GitHub Info content
