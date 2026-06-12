@@ -22,6 +22,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 ---
 
 # Update GitHub Info content
@@ -32,9 +33,15 @@ Use the following sources:
 - `notes/mona-notes.md`
 - GitHub Blog latest: https://github.blog/latest/
 - GitHub Changelog: https://github.blog/changelog/
+- Awesome Copilot workflows: https://awesome-copilot.github.com/workflows/
+
+Web fetch the following sources:
+- https://github.blog/latest/
+- https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Update `site/content/github-info.md` with concise, practical updates for readers.
-Include source context when content comes from the GitHub Blog or GitHub Changelog.
+Include source context when content comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
 
 Open a pull request for Mona to review. Use `safe-outputs` with `create-pull-request` so changes are proposed safely and do not write directly to `main`.
 
